@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <h5 id="player1Name">Player 1 Cards</h5>
+    <div id="player1Cards"></div>
+    <h5>Card Totals:</h5>
+    <div id="player1CardsTotal"></div>
+    <br />
+    <button onclick="cardMethods.hit()">Hit</button>
+    <button onclick="cardMethods.stand()">Stand</button>
+    <h5 id="dealer">Dealer Cards:</h5>
+    <div id="dealerFaceCard"></div>
+    <div id="dealerHiddenCard">
+      <ul>
+        <li>?</li>
+      </ul>
+    </div>
+    <h5>Cards Total:</h5>
+    <div id="dealerOfCardsTotal"></div>
+    <button onclick="cardMethods.dealerHit()">See Dealers Next Card</button>
+    <script src="blackjack1.js"></script>
+  </body>
+</html>

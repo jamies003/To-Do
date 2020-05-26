@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackJack</title>
+</head>
+<body>
+
+  <!-- <link rel="stylesheet" href="css/blackjack.css"> -->
+ 
+  <h1 id='title'></h1>
+  <h2 id='player1Name'><em>Player 1 Cards</em></h2>
+
+  <button onclick='cardMethod.player1Hit()'id='hitButtonClick'>Hit</button>
+  <button onclick='cardMethod.player1Stand()' id='standButtonClick'>Stand</button>
+  <button onclick='cardMethod.newGame()' id='standButtonClick'>New Game</button>
+
+  <div id='player1Cards'></div>
+  <h4>Card Totals</h4>
+  <div id='player1CardsTotal'></div>
+
+
+  <h2 id='dealerName'><em>Dealer</em></h2>
+  <div id='dealer'></div>
+  <h4>Card Totals</h4>
+  <div id='dealerCardsTotal'></div>
+
+  
+  <script src='blackjack2.js'></script>
+</body>
+</html>
